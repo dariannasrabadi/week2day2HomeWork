@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+table {
+  width: 640px;
+  margin:auto ;
+  align-content:auto;
+  border: 2px solid black;
+}
+th {
+  border: 2px solid black;
+}
+td{
+  border: 2px solid black;
+}
+input {
+    margin:auto;
+  align-content: center;
+  justify-content: center;
+}
