@@ -20,3 +20,8 @@ input {
   align-content: center;
   justify-content: center;
 }
+
+#deleteButton {
+
+  float:right;
+}

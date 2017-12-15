@@ -32,10 +32,10 @@ if (firstName === ('') || lastName === ('') || id === ('') || job === ('') || sa
   alert('Please fill out all information');
 }// end if statement
 else { //start else
-$row.append('<td>' + firstName + '</td>'); //Appending it to the TR
-$row.append('<td>' + lastName + '</td>'); // Appending it to TR
-$row.append('<td>' + id + '</td>'); // Appending it to TR
-$row.append('<td>' + job + '</td>'); // Appending it to TR
+$row.append('<td class="ifDeleted">' + firstName + '</td>'); //Appending it to the TR
+$row.append('<td class="ifDeleted">' + lastName + '</td>'); // Appending it to TR
+$row.append('<td class="ifDeleted">' + id + '</td>'); // Appending it to TR
+$row.append('<td class="ifDeleted">' + job + '</td>'); // Appending it to TR
 $row.append('<td>' + salary + '</td>'); // Appending it to TR
 $('tbody').append($row); // Appending to table body
 combinedSalaries += parseInt(salary);
