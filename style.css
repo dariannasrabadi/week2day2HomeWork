@@ -16,9 +16,19 @@ td{
   border: 2px solid black;
 }
 input {
-    margin:auto;
+     display: inline-block;
   align-content: center;
   justify-content: center;
+}
+
+#inTheInputs{
+position: absolute;
+left: 50%;
+transform: translate(-50%, 10%);
+width: auto;
+height: auto;
+border:2px solid black;
+
 }
 
 #deleteButton {
