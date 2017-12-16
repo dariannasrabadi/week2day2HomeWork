@@ -25,3 +25,7 @@ input {
 
   float:right;
 }
+
+.highlighted {
+  background-color: yellow;
+}
