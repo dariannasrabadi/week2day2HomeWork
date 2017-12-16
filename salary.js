@@ -18,7 +18,7 @@ class Employee { // start class
   }// end class constructor
 } // end of class
 var employee = []; // storage of employees array
-var combinedSalaries = 130000; // storage of all employee salaries (130000 is the initial one on the HTML)
+var combinedSalaries = 130000/12; // storage of all employee salaries (130000 was the initial one on the HTML) now its this result written.
 
 /****START OF employeeSubmited function****/
 function employeeSubmited(){
@@ -46,7 +46,8 @@ $row.append('<td class="ifDeleted">' + id + '</td>'); // Appending it to TR
 $row.append('<td class="ifDeleted">' + job + '</td>'); // Appending it to TR
 $row.append('<td>' + salary + '</td>'); // Appending it to TR
 $('tbody').append($row); // Appending to table body
-combinedSalaries += parseInt(salary);
+combinedSalaries += (parseInt(salary)/12);
+
 $('#tableFootCell').empty().append(combinedSalaries);
 
 $('input').val('');
