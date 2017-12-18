@@ -32,8 +32,18 @@ border:2px solid black;
 }
 
 #deleteButton {
-
-  float:right;
+  position: absolute;
+  left: 60%;
+  transform: translate(70%, 150%);
+  width: auto;
+  height: auto;
+}
+#submitButton {
+  position: absolute;
+  right: 21%;
+  transform: translate(-50%, 30%);
+  width: auto;
+  height: auto;
 }
 
 .highlighted {

@@ -4,6 +4,11 @@ function onReady(){//Function full of listeners
 $('#submitButton').on('click', employeeSubmited);
 $('tbody').on('click', '.tbodyRow', employeeHighlighted);
 $('#deleteButton').on('click', removeEmployee);
+$("#firstNameInput, #lastNameInput, #idInput, #jobInput, #salaryInput").keyup(function(event) { // Enter key listener
+    if (event.keyCode === 13) {
+        $("#submitButton").click();
+    }
+});
 }
 
 class Employee { // start class
