@@ -76,11 +76,13 @@ var i = 1; // for retired employee count.
 function removeEmployee(){
 /*Additional .data() information*/
   $('table').data(('RetiredEmployee ' + i), $('.highlighted').text()); //grabs data from the cells removed.
-  $('table').removeData(('ActiveEmployee ' + $('.highlighted').closest('tr').index())); // able to work only for the first removed name. then its broken, need to learn of a proper way.
+  $('table').removeData(('ActiveEmployee ' + (1 + ($('.highlighted').closest('tr').index())*1))); // able to work only for the first removed name. then its broken, need to learn of a proper way.
+// fixed the remove data above to remove proper index number but still only works depending on how you add it.
+
 console.log($('table').data());
 i++;
 // remove the TR of the highlighted classes!
   $('.highlighted').closest('tr').remove(); //removing parents of the highlighted.
-
+  // closest tr  to find data of a specific cell it woukld be .find(td:eq(0)).text()
 
 }
