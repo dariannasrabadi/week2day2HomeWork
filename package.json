@@ -1,0 +1,26 @@
+{
+  "name": "week2day2homework",
+  "version": "1.0.0",
+  "description": "Homework For Week2 Day2 Host to a local port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariannasrabadi/week2day2HomeWork.git"
+  },
+  "keywords": [
+    "Homework",
+    "Week2",
+    "Day2",
+    "express"
+  ],
+  "author": "@dariannasrabadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariannasrabadi/week2day2HomeWork/issues"
+  },
+  "homepage": "https://github.com/dariannasrabadi/week2day2HomeWork#readme"
+}
