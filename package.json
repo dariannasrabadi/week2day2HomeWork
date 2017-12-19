@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/dariannasrabadi/week2day2HomeWork/issues"
   },
-  "homepage": "https://github.com/dariannasrabadi/week2day2HomeWork#readme"
+  "homepage": "https://github.com/dariannasrabadi/week2day2HomeWork#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
